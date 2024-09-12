@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
+	<title> what's up 🗒️ 💻 </title>
+	<style>
+		.container {
+			display: flex;
+		}
+
+		.column {
+			flex: 0.1;
+			padding: 1px;
+		}
+	</style>
+</head>
+
+<body class="container" data-sveltekit-preload-data="hover">
+	<aside class="column sidebar">
+		<a href="/"
+			title="An image from an illustration by James Provost on 'The Cult of Done Manifesto' (by Bre Pettis and Kio Stark).">
+			<image style="padding: 1rem" src="/images/CultOfDone_13.png" height="64rem"
+				alt="An image from an illustration by James Provost on 'The Cult of Done Manifesto' (by Bre Pettis and Kio Stark).">
+			</image>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="/about">about</a></li>
+				<li><a href="/essays">essays</a></li>
+				<li><a href="/projects">projects</a></li>
+				<li><a href="/quotes">quotes</a></li>
+			</ul>
+		</nav>
+	</aside>
+	<main>%sveltekit.body%</main>
+</body>
+
+</html>
