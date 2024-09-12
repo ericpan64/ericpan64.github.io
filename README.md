@@ -8,6 +8,6 @@ If needed, use the latest node version with something like `nvm use node`
 
 To do dev work: `npm run dev`
 
-The content of the website is stored in `app/static/writing` as Markdown files. The [Showdown](https://github.com/showdownjs/showdown) library is used for converting back&forth
+The content of the website is stored in `app/static/writing` as Markdown files. The [Marked](https://github.com/markedjs/marked) library is used for converting back&forth
 
 Semantic HTML is used whenever reasonable (it's hard!).
