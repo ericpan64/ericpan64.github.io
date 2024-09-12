@@ -2,28 +2,12 @@
 
 A personal website to host different ideas and keep a history of how they evolve (in Git!)
 
-This static website is generated using SvelteKit. The steps to build are:
-```bash
-cd epan-land-svelte
-npm i
-npm run build
-cp -r build/* ..
-```
+This static website is generated using SvelteKit. The steps to build are in [`build.sh`](./build.sh)
 
 If needed, use the latest node version with something like `nvm use node`
 
 To do dev work: `npm run dev`
 
-The content of the website is stored in `epan-land-svelte/static/content` as Markdown files. The following conversions are made (roughly):
-```json
-{
-    "#": "<h1>",
-    "##": "<h2>",
-    "###": "<h3>",
-    "####": "<h4>",
-    "[some_text](some_link)": "<a href='some_link'>some_text</a>",
-    "Text until next newline": "<p>Text until next newline</p>"
-}
-```
+The content of the website is stored in `app/static/writing` as Markdown files. The [Showdown](https://github.com/showdownjs/showdown) library is used for converting back&forth
 
-Semantic HTML is used whenever reasonable.
+Semantic HTML is used whenever reasonable (it's hard!).
