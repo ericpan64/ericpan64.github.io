@@ -7,7 +7,7 @@ This static website is generated using SvelteKit. The steps to build are:
 cd epan-land-svelte
 npm i
 npm run build
-cp -r build ..
+cp -r build/* ..
 ```
 
 If needed, use the latest node version with something like `nvm use node`
