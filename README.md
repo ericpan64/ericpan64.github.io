@@ -14,16 +14,6 @@ If needed, use the latest node version with something like `nvm use node`
 
 To do dev work: `npm run dev`
 
-The content of the website is stored in `epan-land-svelte/static/content` as Markdown files. The following conversions are made (roughly):
-```json
-{
-    "#": "<h1>",
-    "##": "<h2>",
-    "###": "<h3>",
-    "####": "<h4>",
-    "[some_text](some_link)": "<a href='some_link'>some_text</a>",
-    "Text until next newline": "<p>Text until next newline</p>"
-}
-```
+The content of the website is stored in `epan-land-svelte/static/content` as Markdown files using the [marked](https://github.com/markedjs/marked) library.
 
 Semantic HTML is used whenever reasonable.
