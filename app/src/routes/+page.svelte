@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { imageProbabilities, imageAltTextOptions } from "$lib/imageOptions";
+    import { imageData } from "$lib/imageOptions";
 
     let imageSrc = "";
     let imageAltText = "";
@@ -8,59 +8,59 @@
     let isLoading = true;
 
     let lastPicked = "";
-    const pickRandom = (optionDict: Record<string, number>): string => {
+
+    const pickRandom = (
+        optionDict: Record<string, Record<string, number>>,
+    ): string => {
         const options = Object.keys(optionDict).filter(
             (opt) => opt !== lastPicked,
         );
         if (options.length === 0) return lastPicked;
 
-        let result = options[0];
-        let sum = options.reduce((acc, opt) => acc + optionDict[opt], 0);
-        let rand = Math.random() * sum;
+        const sum = options.reduce(
+            (acc, opt) => acc + optionDict[opt].weight,
+            0,
+        );
+        const rand = Math.random() * sum;
 
+        let cumulative = 0;
         for (let opt of options) {
-            rand -= optionDict[opt];
-            if (rand <= 0) {
-                result = opt;
-                break;
+            cumulative += optionDict[opt].weight;
+            if (rand <= cumulative) {
+                lastPicked = opt;
+                return opt;
             }
         }
 
-        lastPicked = result;
-        return result;
+        return options[options.length - 1]; // Fallback
     };
 
     const setImageVars = () => {
-        const options = imageProbabilities[folderSelection];
+        const options = imageData[folderSelection];
         const pickedImg = pickRandom(options);
         imageSrc = `/images/${folderSelection}/${pickedImg}`;
-        imageAltText = imageAltTextOptions[folderSelection][pickedImg];
+        imageAltText = imageData[folderSelection][pickedImg].alt;
         isLoading = false;
     };
 
     onMount(setImageVars);
+
+    const imageDirectories = ["cats", "dogs", "moments"];
 </script>
 
-<h1>Welcome!—epan.land</h1>
+<h1>Welcome! — epan.land</h1>
 <ul class="horizontal-list">
-    <li>
-        <a
-            href="#"
-            on:click|preventDefault={() => {
-                folderSelection = "cats";
-                setImageVars();
-            }}>cats</a
-        >
-    </li>
-    <li>
-        <a
-            href="#"
-            on:click|preventDefault={() => {
-                folderSelection = "dogs";
-                setImageVars();
-            }}>dogs</a
-        >
-    </li>
+    {#each imageDirectories as category}
+        <li>
+            <a
+                href=""
+                on:click={() => {
+                    folderSelection = category;
+                    setImageVars();
+                }}>{category}</a
+            >
+        </li>
+    {/each}
 </ul>
 {#if isLoading}
     <div>Loading...</div>
