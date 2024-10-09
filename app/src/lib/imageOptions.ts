@@ -1,5 +1,3 @@
-// TODO NEXT STEP: Fill-out different images to use here
-
 export const imageData = {
     cats: {
         "billy-1.jpeg": { weight: 3, alt: "My cat, Billy! Cambridge MA, circa March 2022" },
@@ -9,7 +7,7 @@ export const imageData = {
         "billy-5.jpeg": { weight: 1, alt: "My cat, Billy, saying 'Hello!' at the kitchen table. Arcadia CA, circa August 2023" },
         "billy-6.jpeg": { weight: 1, alt: "My cat, Billy, taking a nap at home. Arcadia CA, circa December 2022" },
         "shia-1.jpeg": { weight: 2, alt: "Shia, the foster kitten, looking quite smug being somewhere he shouldn't be. Arcadia CA, circa March 2021" },
-        "skittens-1.jpeg": { weight: 2, alt: "The 'Litter S' foster kittes (left-to-right: Shia, Sophie, Scarlette). Arcadia CA, circa February 2021" },
+        "skittens-1.jpeg": { weight: 2, alt: "The 'Litter S' foster kittens (left-to-right: Shia, Sophie, Scarlette). Arcadia CA, circa February 2021" },
     },
     dogs: {
         "mavi-1.jpeg": { weight: 2, alt: "Mavi the foster dog! A loving pittie with a new forever home. Arcadia CA, circa April 2021" },
@@ -24,7 +22,7 @@ export const imageData = {
         "crafts-1.jpeg": { weight: 2, alt: "My first (and only) creation at the Industry Labs woodshop! Cambridge MA, circa Nov 2022" },
         "crafts-2.jpeg": { weight: 1, alt: "Proudly displaying my creation at my Industry Labs desk. Cambridge MA, circa Nov 2022" },
         "meme-1.jpeg": { weight: 2, alt: "One of those water bottle machines showing undefined bottles saved - we did it! Westwood CA, circa April 2018" },
-        "running-1.jpeg": { weight: 2, alt: "A lovely scene by the Charles River. Camrbidge MA, circa Jan 2022" },
+        "running-1.jpeg": { weight: 2, alt: "A lovely scene by the Charles River. Cambridge MA, circa Jan 2022" },
         "running-2.jpeg": { weight: 2, alt: "A trash can full of Gatorade cups at ~mile 6 of the Honolulu Marathon. Honolulu HI, circa Dec 2022" }
     }
 };
