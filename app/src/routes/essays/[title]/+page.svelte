@@ -24,12 +24,16 @@
         return `<a href="${e.href}">${e.text}</a>`;
     };
 
-    onMount(async () => {
-        const response = await fetch(
-            `/writing/essays/${$page.params.title}.md`,
-        );
+    $: fetchContent($page.params.title);
+
+    async function fetchContent(title) {
+        const response = await fetch(`/writing/essays/${title}.md`);
         const markdown = await response.text();
         content = marked(markdown, { renderer });
+    }
+
+    onMount(() => {
+        fetchContent($page.params.title);
     });
 </script>
 
