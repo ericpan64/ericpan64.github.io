@@ -4,7 +4,9 @@ on:
   # Trigger the workflow every time you push to the `main` branch
   # Using a different branch name? Replace `main` with your branch’s name
   push:
-    branches: [main]
+    branches:
+      - main
+      - test
 
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
@@ -24,23 +26,28 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Set working dir to sveltekit app
+    defaults:
+      run:
+        working-directory: app
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
+      # - name: Install pnpm
+      #   uses: pnpm/action-setup@v2
+      #   with:
+      #     version: 8
 
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
+          cache-dependency-path: app/package-lock.json
           node-version: 18
-          cache: pnpm
+          cache: npm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm install
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -48,13 +55,13 @@ jobs:
           static_site_generator: sveltekit
 
       - name: Build
-        run: pnpm run build
+        run: npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v1
         with:
-          # this should match the `pages` option in your adapter-static options
-          path: 'build/'
+          # end dir should match the `pages` option in your adapter-static options
+          path: 'app/build/'
 
   deploy:
     needs: build
