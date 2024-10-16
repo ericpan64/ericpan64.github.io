@@ -32,8 +32,23 @@
 
     <ul>
         <li>
+            [October 2024] <a href="/essays/2024-10_KH-SOP"
+                >(current applicant) Stanford Knight Hennessy - Connect The Dots
+            </a>
+        </li>
+        <li>
+            [August 2024] <a href="/essays/2024-8_MS-Design-SOP"
+                >(current applicant) Stanford MS Design - Statement of Purpose</a
+            >
+        </li>
+        <li>
             [March 2024] <a href="/essays/2024-3_DataMappingsAsPoetry"
                 >Data Mapping is Poetry (not plumbing)</a
+            >
+        </li>
+        <li>
+            [August 2022] <a href="/essays/2022-8_MS-BMI-SOP"
+                >Stanford MS BMI - Statement of Purpose</a
             >
         </li>
     </ul>
