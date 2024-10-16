@@ -26,10 +26,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Set working dir to sveltekit app
-    defaults:
-      run:
-        working-directory: app
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
