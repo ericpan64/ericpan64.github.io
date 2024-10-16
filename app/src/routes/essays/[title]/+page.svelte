@@ -1,6 +1,7 @@
 <script>
     import { page } from "$app/stores";
     import { onMount } from "svelte";
+    import { afterNavigate } from "$app/navigation";
     import { marked } from "marked";
 
     let content = "";
@@ -24,12 +25,20 @@
         return `<a href="${e.href}">${e.text}</a>`;
     };
 
-    onMount(async () => {
-        const response = await fetch(
-            `/writing/essays/${$page.params.title}.md`,
-        );
+    async function fetchContent(title) {
+        const response = await fetch(`/writing/essays/${title}.md`);
         const markdown = await response.text();
         content = marked(markdown, { renderer });
+    }
+
+    onMount(() => {
+        fetchContent($page.params.title);
+    });
+
+    afterNavigate(({ to }) => {
+        if (to?.url.pathname.startsWith("/essays/")) {
+            fetchContent($page.params.title);
+        }
     });
 </script>
 

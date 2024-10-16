@@ -12,17 +12,36 @@
 			display: flex;
 			max-width: 64rem;
 			padding: 0 1rem;
+			flex-direction: row;
 		}
 
-		.column {
+		.sidebar {
 			flex: 0.1;
 			padding: 1px;
+			display: flex;
+			flex-direction: column;
+			/* Default to column for desktop */
+		}
+
+		@media (max-width: 768px) {
+
+			/* Adjust this breakpoint as needed */
+			.container {
+				flex-direction: column;
+				/* Stack columns vertically on smaller screens */
+			}
+
+			.sidebar {
+				flex: 1;
+				/* Allow columns to take full width */
+				flex-direction: row;
+			}
 		}
 	</style>
 </head>
 
 <body class="container" data-sveltekit-preload-data="hover">
-	<aside class="column sidebar">
+	<aside class="sidebar">
 		<a href="/"
 			title="An image from an illustration by James Provost on 'The Cult of Done Manifesto' (by Bre Pettis and Kio Stark).">
 			<img style="padding: 1rem" src="/images/CultOfDone_13.png" height="64rem"
