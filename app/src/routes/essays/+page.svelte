@@ -33,12 +33,12 @@
     <ul>
         <li>
             [October 2024] <a href="/essays/2024-10_KH-SOP"
-                >(current applicant) Stanford Knight Hennessy - Connect The Dots
+                >[current applicant] Stanford Knight Hennessy - Connect The Dots
             </a>
         </li>
         <li>
             [August 2024] <a href="/essays/2024-8_MS-Design-SOP"
-                >(current applicant) Stanford MS Design - Statement of Purpose</a
+                >[current applicant] Stanford MS Design - Statement of Purpose</a
             >
         </li>
         <li>
