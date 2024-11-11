@@ -21,7 +21,7 @@ export const imageData = {
     moments: {
         "crafts-1.jpeg": { weight: 2, alt: "My first (and only) creation at the Industry Labs woodshop! Cambridge MA, circa Nov 2022" },
         "crafts-2.jpeg": { weight: 1, alt: "Proudly displaying my creation at my Industry Labs desk. Cambridge MA, circa Nov 2022" },
-        "meme-1.jpeg": { weight: 2, alt: "One of those water bottle machines showing undefined bottles saved - we did it! Westwood CA, circa April 2018" },
+        "meme-1.jpeg": { weight: 2, alt: "One of those water bottle machines showing undefined bottles saved - we did it! Verona WI, circa Feb 2019" },
         "running-1.jpeg": { weight: 2, alt: "A lovely scene by the Charles River. Cambridge MA, circa Jan 2022" },
         "running-2.jpeg": { weight: 2, alt: "A trash can full of Gatorade cups at ~mile 9 of the Honolulu Marathon. Honolulu HI, circa Dec 2022" }
     }
