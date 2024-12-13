@@ -66,6 +66,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'  # Only run deploy job on main branch
 
     environment:
       name: github-pages
