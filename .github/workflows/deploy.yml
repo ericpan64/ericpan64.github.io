@@ -64,14 +64,14 @@ jobs:
           path: 'app/build/'
 
   deploy:
+    # Only try this on the `main` branch
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'  # Only run deploy job on main branch
 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy
         id: deployment
