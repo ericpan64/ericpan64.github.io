@@ -46,6 +46,18 @@
     onMount(setImageVars);
 
     const imageDirectories = ["cats", "dogs", "moments"];
+
+    // // Cursor stuff!
+    // // TODO: Add way to disable the cursor
+    // import { cursorEnabled } from "$lib/stores";
+
+    // onMount(() => {
+    //     cursorEnabled.subscribe((enabled) => {
+    //         document.documentElement.dataset.cursor = enabled
+    //             ? "enabled"
+    //             : "disabled";
+    //     });
+    // });
 </script>
 
 <h1>Welcome! — epan.land</h1>
