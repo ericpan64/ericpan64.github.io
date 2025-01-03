@@ -66,6 +66,10 @@ Not many people care about beautiful plumbing, though we can definitely apprecia
 
 Thank you for making it this far! To be honest, I care most about the semantics of improving the patient and clinician experiences, and this journey into data mappings was somewhat “begrudgingly” started. However, it has been fun and I hope that my work can help people (including myself) in pursuing their semantic journeys. I’m glad I find this problem interesting and am grateful to have the opportunity to explore it rigorously and collaboratively. Onward!
 
+### Post-Postscript
+
+Check out [pydian](https://github.com/ericpan64/pydian): what I hope might be the "ReactJS" for data mappings in Python!
+
 ---
 
 ## Footnotes
