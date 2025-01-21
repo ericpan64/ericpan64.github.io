@@ -20,6 +20,12 @@
     --cursor-pointer: url('/cursors/pikachu/normal.png'), pointer;
 }
 
+/* Ignore cursor for home image (`no-cursor-hover` is an arbitrary class name I picked and assigned) */
+.no-cursor-hover:hover {
+    cursor: var(--cursor-default);
+}
+
+
 /* Default state */
 body {
     cursor: var(--cursor-default);
