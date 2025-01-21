@@ -44,8 +44,7 @@ jobs:
         with:
           cache-dependency-path: app/package-lock.json
           node-version: 18
-          node-version: 18
-          cache: npm
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install
