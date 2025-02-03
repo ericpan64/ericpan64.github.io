@@ -33,12 +33,12 @@
     <ul>
         <li>
             [October 2024] <a href="/essays/2024-10_KH-SOP"
-                >[current applicant] Stanford Knight Hennessy - Connect The Dots
+                >Stanford Knight Hennessy - Connect The Dots (rejected but learned a lot)
             </a>
         </li>
         <li>
             [August 2024] <a href="/essays/2024-8_MS-Design-SOP"
-                >[current applicant] Stanford MS Design - Statement of Purpose</a
+                >Stanford MS Design - Statement of Purpose (current applicant)</a
             >
         </li>
         <li>
@@ -48,7 +48,7 @@
         </li>
         <li>
             [August 2022] <a href="/essays/2022-8_MS-BMI-SOP"
-                >Stanford MS BMI - Statement of Purpose</a
+                >Stanford MS BMI - Statement of Purpose (accepted!)</a
             >
         </li>
     </ul>
