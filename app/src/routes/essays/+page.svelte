@@ -23,7 +23,7 @@
  The data is still just from the markdown file though and we have that at compile time, so can do something there
 -->
 
-<div>
+<main>
     <h1>Essays on various things</h1>
     <p>
         Some longer-form writing that I've thought deeply about. Opinions are my
@@ -33,7 +33,8 @@
     <ul>
         <li>
             [October 2024] <a href="/essays/2024-10_KH-SOP"
-                >Stanford Knight Hennessy - Connect The Dots (rejected but learned a lot)
+                >Stanford Knight Hennessy - Connect The Dots (rejected but
+                learned a lot)
             </a>
         </li>
         <li>
@@ -52,4 +53,4 @@
             >
         </li>
     </ul>
-</div>
+</main>

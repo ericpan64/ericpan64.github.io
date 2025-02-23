@@ -60,23 +60,26 @@
     // });
 </script>
 
-<h1>Welcome! — epan.land</h1>
-<ul class="horizontal-list">
-    {#each imageDirectories as category}
-        <li>
-            <a
-                href=""
-                on:click={() => {
-                    folderSelection = category;
-                    setImageVars();
-                }}>{category}</a
-            >
-        </li>
-    {/each}
-</ul>
-{#if isLoading}
-    <div>Loading...</div>
-{:else}
+<main>
+    <h1>Welcome! — epan.land</h1>
+    <nav>
+        <ul class="horizontal-list">
+            {#each imageDirectories as category}
+                <li>
+                    <a
+                        href=""
+                        on:click={() => {
+                            folderSelection = category;
+                            setImageVars();
+                        }}>{category}</a
+                    >
+                </li>
+            {/each}
+        </ul>
+    </nav>
+    {#if isLoading}
+        <article>Loading...</article>
+    {:else}
     <img
         src={imageSrc}
         alt={imageAltText}
@@ -84,7 +87,9 @@
         height="480rem"
         width="320rem"
     />
-{/if}
+
+    {/if}
+</main>
 
 <style>
     .horizontal-list {

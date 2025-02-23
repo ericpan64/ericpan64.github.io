@@ -11,4 +11,4 @@
     });
 </script>
 
-<div>{@html content}</div>
+<main>{@html content}</main>

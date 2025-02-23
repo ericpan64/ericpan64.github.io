@@ -42,7 +42,10 @@
     });
 </script>
 
-<br />
-<nav><a href="/essays">essays</a> ~ {$page.params.title}</nav>
+<main>
+    <br />
+    <nav><a href="/essays">essays</a> ~ {$page.params.title}</nav>
+    
+    <article>{@html content}</article>
+</main>
 
-<div>{@html content}</div>
