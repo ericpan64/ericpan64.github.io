@@ -12,6 +12,8 @@
   - That being said, I'm a strong believer in having high standards that are also _realistic_. People sutblely connote being "realistic" with lowing standards, though that shouldn't be true -- instead just keep getting better (at whatever you're aiming for). And life is complicated -- different people want different thing
   - Looking for a partner/spouse are similar though heuristics are very different. Let's explore some of the differences
 - Regular dating: why it has started to suck
+  - Relationship framing from "The Value of Others": the exchange of equal goods for comparable value (goods and values are different)
+    - Ideas sound controversial but reflect a lot of general truths. Biological foundations (though obviously general truths don't capture the entirety of life)
 - Difference between co-founder and regular dating: co-founder relationship is _fundamentally_ a work relationship, NOT a personal one
   - Both correlate, though work comes first, period
   - These don't magically sort themselves out. Like in any relationship -- takes work, being deliberate, compromise, etc.
@@ -44,7 +46,7 @@
   4. Fame -- specifically for recognition, the "aura" of being an entrepreneur
   5. Lifestyle -- specifically for personal lifestyle
 - When things are "great" and zero conflict: everyone wants to keep everything (duh)
-- When things are "real" and non-zero conflict: _pick one_ to keep and actively act on, _pick one more_ to watch
+- When things are "real" and non-zero conflict: _pick one_ to keep and actively act on, _pick one more_ to watch. Need to prioritize
 - You can have everything, just not at once
   - It's not humanly possible to do more than one thing at a time by defining the unit of time -- just not possible. Some people might say that's "cheating", but hey, thanks for making it this far lol. Many things might happen at once, though for human action, our brains can only do one thing at a time (albeit some might get good at switching real fast, a la async compute patterns)
 - Absolutely ok for people to have different priorities. Just helps a lot when they align (definitely top 1, good if top 2).
