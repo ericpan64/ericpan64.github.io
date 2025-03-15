@@ -1,6 +1,6 @@
 # Statement of Purpose (Design, MS)
 
-> This was my essay when applying for the [MS Design](https://designprogram.stanford.edu/) program. No guarantees, though fingers crossed! And yes, I have very strong opinions about these things.
+> This was my essay when applying for the [MS Design](https://designprogram.stanford.edu/) program. Unfortunately I did not get in, though I am going to see this through on my own! To see what I'm up to, see: [about](./about)
 
 Eric S Pan
 
