@@ -39,7 +39,8 @@
         </li>
         <li>
             [August 2024] <a href="/essays/2024-8_MS-Design-SOP"
-                >Stanford MS Design - Statement of Purpose (current applicant)</a
+                >Stanford MS Design - Statement of Purpose (rejected but glad I
+                tried)</a
             >
         </li>
         <li>
