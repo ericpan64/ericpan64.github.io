@@ -32,6 +32,16 @@
 
     <ul>
         <li>
+            [March 2025] <img
+                src="/images/ebay-new-2000s.png"
+                alt="The eBay 'new' icon from the 2000's, a classic!"
+                width="24rem"
+                height="auto"
+            /><a href="/essays/2025-3_TheDao-CoFounderDating">
+                The Dao of Co-Founder "Dating"
+            </a>
+        </li>
+        <li>
             [October 2024] <a href="/essays/2024-10_KH-SOP"
                 >Stanford Knight Hennessy - Connect The Dots (rejected but
                 learned a lot)
