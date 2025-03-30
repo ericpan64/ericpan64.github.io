@@ -32,6 +32,11 @@
 
     <ul>
         <li>
+            [March 2025] <a href="/essays/2025-3_TheDao-CoFounderDating">
+                The Dao of Co-Founder "Dating"
+            </a>
+        </li>
+        <li>
             [October 2024] <a href="/essays/2024-10_KH-SOP"
                 >Stanford Knight Hennessy - Connect The Dots (rejected but
                 learned a lot)

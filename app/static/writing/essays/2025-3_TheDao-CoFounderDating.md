@@ -1,78 +1,75 @@
 # The Dao of Co-Founder "Dating"
 
-> This essay goes over some personal philosophy of co-founder "dating" through the lens of Daoism and proposed frameworks for these phases. I am far from an expert in Daoism, though as the son of Chinese immigrants a lot of concepts resonate with me. I _am_ an expert in co-founder "dating" (self-proclaimed), though have gained tons of insights from various sources (some listed at end). I'm also a self-proclaimed expert in regular dating (semi-unfortunately), AMA (but first: suggested reading below)
-
-<!-- Target length: 300-800 words. A ton of ideas -- get them out, though shorter is better! -->
+> This essay goes over some personal philosophy of co-founder "dating" through the lens of [Daoism](https://en.wikipedia.org/wiki/Taoism). I am far from an expert in Daoism, though as the son of Chinese immigrants, many concepts resonate with me. I do have experience in co-founder "dating" and have gained tons of insights from various sources as well [[1]](#footnotes). Finally, I also have plenty of experience in regular dating (semi-unfortunately) and hope this fusion of topics deems insightful (or at least fun to read).
 
 ## Co-founder "Dating": Like regular dating, but for work
 
-- Common trope: "pick your co-founder like your partner/spouse, you'll spend more time with them than your actual partner/spouse!"
-  - True, but isn't this true for most 60+ hour/week jobs? 
-  - It's definitely important to pick a co-founder and be deliberate, though the seek for perfection can impede progress. 
-  - That being said, I'm a strong believer in having high standards that are also _realistic_. People sutblely connote being "realistic" with lowing standards, though that shouldn't be true -- instead just keep getting better (at whatever you're aiming for). And life is complicated -- different people want different thing
-  - Looking for a partner/spouse are similar though heuristics are very different. Let's explore some of the differences
-- Regular dating: why it has started to suck
-  - Relationship framing from "The Value of Others": the exchange of equal goods for comparable value (goods and values are different)
-    - Ideas sound controversial but reflect a lot of general truths. Biological foundations (though obviously general truths don't capture the entirety of life)
-- Difference between co-founder and regular dating: co-founder relationship is _fundamentally_ a work relationship, NOT a personal one
-  - Both correlate, though work comes first, period
-  - These don't magically sort themselves out. Like in any relationship -- takes work, being deliberate, compromise, etc.
+Dating is challenging, especially in our post-internet, post-pandemic world where options abound but meaningful connections remain elusive. Despite my mom's assurances about my obvious handsomeness [[2]](#footnotes), my romantic history consists of dozens of first dates and only one brief relationship. For relationships to work, they must make sense for everyone involved which is why rejection is often the norm.
 
-- (reflecting on my own early journey working on Stoa Medical -- navigating uncertainty, goals, and waryness of commitment, ounces daoism and nihilism, grounding ironically in stoicism as organizing framework, wondering if it's arbitrary or just in my nature, thinking about AI in the context of writing code, thinking about what my job is and how to spend my time -- hacker brain vs business brain and switching between the two)
-- An infinite job search, though at least in a job search the heuristics are clear (skills fitting role, right aptitude to work together, paying money for skills, company wants to further revenue). To be explicit, clear does _not_ mean easy -- getting a job is particurily hard (especially in the current economy)
+Co-founder relationships follow similar dynamics, but with a critical difference: they're fundamentally professional. While personal chemistry matters, the priority must be accomplishing work sustainably - everything else is secondary. And like in the corporate world, it’s not personal, even if it kind of is.
+
+## The Duality of Daoism: Everything and Nothing
+
+Last year, I began reading the [Dao De Jing (Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching) before getting thoroughly confused twenty pages in. Also around that time, I met a girl on Hinge [[3]](#footnotes) and we went on an ice cream date in downtown Palo Alto. After discussing mutual interests in philosophy, my brain lit up at the opportunity to project my worldly knowledge. I enthusiastically shared my satirical rendering: "It is EVERYTHING, and it is NOTHING, THAT is the DAO." We laughed, and an hour later of chatting and walking around, she departed with a casual smile - "see you around".
+
+The paradox of the Dao has continued to intrigue me: how can something be simultaneously everything and nothing? Yet that describes most first dates perfectly - we bring our expectations and authentic selves, enjoy moments of connection, and typically leave with nothing tangible. The experience itself, however, isn't nothing - these moments collectively compose our lives and offer valuable glimpses into others and ourselves.
+
+Daoism has helped me appreciate life's nuances. As I approach 30, I'm shedding romanticized expectations while remaining open to genuinely special moments. They're rare and precious - things to appreciate as true gifts. Acknowledging true romance, while also not expecting it from anyone, honors its integrity as a genuine gift. 
+
+## Actions Communicate Values
+
+Dating is essentially a negotiation for mutual fit [[4]](#footnotes). The best matches feel effortless, but words alone aren't enough. When we speak, we project our values; when we act, we make them real.
+
+Everyone presents their best self, but what persists is our authentic self: never static but strengthened through consistent action. Words exist in the realm of abstract values, while actions manifest these values in reality, complete with inevitable tradeoffs. It's far easier for abstract ideas to align than for realities to harmonize.
+
+Startups are inherently risky. Without risk, there would be no reward - otherwise, everyone would enjoy the benefits of everything while giving up nothing. From a Daoist lens, when we want everything, we also want nothing. While I believe it’s possible to construct situations where tradeoffs are mitigated, just as true romance does exist, it’s a bit unprofessional to ignore the reality of, well, reality.
 
 
-## Duality of the Dao: everything, and nothing (... what?)
-- Concept of the "Dao" -- mythical spirit-like force embodying everything and nothing
-    - (pull some quotes)
-- My framing: increasing space for understanding the nuances of reality (the "grey" zone of most things)
-    - N-dimensional space (N > 1000), though our brains only focus on 3 or less dimensions at a time. This focuses our lens on just one specific slice. Even if you PCA it, it's still just one lens.
-    - I strongly believe in good and evil, since I believe in my valueset strongly. Everyone is entitled to their own valueset. Though in addition to individual frames of "good" and "evil", framing can be "better" or "worse".
-- World is more and more polarized nowaways -- fragmentation of "all or nothing" mindset has become subtle
+## Framework 1: Aligning Priorities with "Five Factors"
 
-## Actions communicate Values (though Words can help)
-- People speak with their actions
-- In dating, both sides are gathering information within limited windows of time.
-  - The simplest and most accessible means of information: words. Makes sense, should definitely do
-- Words are often an appeal to desired values
-- Actions are our real values
+As I reflect on my serial co-founder “dating”, I’ve identified five key factors:
+- **Mission**: One burning cause, inflexible
+- **Impact**: Strong alignment with values, flexible on actualization
+- **Money**: Personal economic profit, business-first approach
+- **Fame**: Recognition and entrepreneurial "aura"
+- **Lifestyle**: Living in ways that are otherwise less available
 
-## Framework 1 (dating): aligning priorities with "Five Factors"
+Through various meetings with potential co-founders, it’s often hard to match vibes, energy, timing, and priorities - reasonably so, life is complicated! Yet when I found alignment, optimism abounded - I was intoxicated by the possibility of building an idyllic future as a team. 
 
-- The "Five factors":
-  1. Mission -- specifically for one cause
-  2. Impact -- generally for any cause, alignment with values
-  3. Money -- specifically for personal economic profit
-  4. Fame -- specifically for recognition, the "aura" of being an entrepreneur
-  5. Lifestyle -- specifically for personal lifestyle
-- When things are "great" and zero conflict: everyone wants to keep everything (duh)
-- When things are "real" and non-zero conflict: _pick one_ to keep and actively act on, _pick one more_ to watch. Need to prioritize
-- You can have everything, just not at once
-  - It's not humanly possible to do more than one thing at a time by defining the unit of time -- just not possible. Some people might say that's "cheating", but hey, thanks for making it this far lol. Many things might happen at once, though for human action, our brains can only do one thing at a time (albeit some might get good at switching real fast, a la async compute patterns)
-- Absolutely ok for people to have different priorities. Just helps a lot when they align (definitely top 1, good if top 2).
-- There are many ways to slice this, so happy for suggestions on how to modify
+When talking, people project their ideals and values, and it’s truly special to share genuine values with someone else. Understanding mutual factors can be powerful in minimizing conflict and aligning visions, also with the shared understanding that things evolve naturally. As Linus Torvalds once put it: [“Talk is cheap. Show me the code.”](https://lkml.org/lkml/2000/8/25/132)
 
-## Framework 2 (relationship): everything 
-- Each co-founder, pick 2 to completely own and focus on:
-	- Product Design
-	- Engineering
-	- Business Operations
-	- Sales + Marketing
-- This is all in service of your *users*
-- Extreme ownership -- *you're responsible for everything*
-	- Want to be literate at everything -- wear multiple hats
-        - FOCUS is essential for founders -- need to do everything, but can't do everything at once, and usually things take a certain amount of momentum to get a useful amount of things done
-	- *Your main focus shouldn't be spread too thin* -- otherwise success becomes a moving target (a successful day from a business ops perspective: market validation and talking to people, which is absolute failure from engineering perspective -- you should've been pushing code and doing what you think, in service of what other people think, and not just doing what other people think)
+When it’s time for action, sh*t gets real. Reality sets in and introduces tradeoffs and compromises. Additionally, the “hidden” state of individual values comes out as well: actions communicate our true values, conscious or not. In the realm of the abstract, it’s possible to keep and actualize all of the factors at once; in reality, it might only be possible to properly prioritize one of the five. When things get hard, prioritize one, watch the rest, and get back to fire fighting.
+ 
+## Framework 2: Balance "Everything", Expect "Nothing"
+
+Building a startup solo has taught me the impossibility of doing everything simultaneously. While everything needs to get done, our human brains can only focus on one thing at a time (“multitasking” is just rapid switching of focus). Momentum compounds and stagnancy atrophies. Focusing on one area is the path forward, yet it also means other areas inevitably stagnate.
+
+As an proposed framework, founding teams need to address (at least) 4 domains:
+- **Product**: The experience for your customer
+- **R&D**: Research and development (i.e. whatever your “edge” is)
+- **Operations**: Day-to-day organization and functioning
+- **Sales & Marketing**: Selling and closing
+
+A good co-founder should be willing to cover everything while demonstrating excellence in at least one area. Different problems require different approaches, just as different relationships work for different people. And with experience, everyone is capable of learning and growing their skills in any of these areas. 
 
 ## Conclusion
-- Maybe a framing would be "pick your favorite co-worker"
-- Better to be happy single than be in a relationship to just be alone
-  - Definitely possible to do it alone, though definitely better to do it together _assuming it works for everyone_ (that's the hard part)
-- For now, happy where I'm at and making slow and steady progress on my goals. It does get lonely, but alas, that's just part of life (for everyone!). Though ideally, yes one day I'd like a girlfriend, erm, I mean co-founder, or co-worker? ... hrm...
 
-### Other useful references and acknowledgements
+While a healthy partnership is the ideal, I believe it's better to be happy alone than in a misaligned relationship. The best foundation for any partnership is self-sufficiency - it positions one to give more than take, though it’s human to have needs and seek genuine connections which embody both everything and nothing [[5]](#footnotes).
 
-- YC guide + content (has helped me a ton)
-- First Round guide
-- Various in-person events and talks (too many to name, though if you want a shoutout let me know and I'll update)
-- ...etc.
+At the end of the day, picking a co-founder is picking a co-worker, and anything else is a pleasant surprise. And as with dating, the paradox follows: the best relationships start alone, the relationship with oneself. And like most work situations, it's important to appreciate a good one while it lasts (ideally until retirement, and realistically until entropy does its thing).
+
+For now, I'm embracing being a solo founder until the right partnership comes up - one that makes sense for everyone. And to my mom: don't worry, I'm still looking a fulfilling romantic relationship, and it'll happen ... eventually 😃 (or never ☠️, who knows).
+
+---
+
+## Footnotes
+
+[1] Some useful guides include (but are not limited to): [various resources from Y Combinator](https://www.ycombinator.com/library/search?query=co-founder) (I've definitely watched/read 5+ of the first 10 results over the years), [50 Questions from First Round](https://review.firstround.com/the-founder-dating-playbook-heres-the-process-i-used-to-find-my-co-founder/) (I've answered all the questions back in ~2023), an informative talk from [Annie Garofalo from Confidante](https://www.confidante.info/) as part of the [Botha Chan Innovation Program](https://www.gsb.stanford.edu/experience/learning/entrepreneurship/beyond-classroom/botha-chan-innovation), and definitely more including various advice from friends, mentors, and the internet. [↩](#the-dao-of-co-founder-dating)
+
+[2] Love you mom 🫶 [↩](#co-founder-dating-like-regular-dating-but-for-work)
+
+[3] The app that's ✨ designed to be deleted ✨ (jokes aside, it was the best dating app I've used) [↩](#the-duality-of-daoism-everything-and-nothing)
+
+[4] Preface: it's essential to appreciate everyone and play infinite rather than zero-sum games. That being said, I do believe that relationships involve the exchange of unequal goods of comparable value (an idea from Orion Taraban's book: [The Value of Others](https://sobrief.com/books/the-value-of-others)) [↩](#actions-communicate-values)
+
+[5] Viewed from a macro lens: relationships, majority of which are non-romantic, drive immense meaning in life. Viewed from a micro lens: our lives are experienced solely through our independent minds, and relationships can be viewed as a function of personal experience. Both hold truth and can co-exist harmoniously. [↩](#conclusion)
