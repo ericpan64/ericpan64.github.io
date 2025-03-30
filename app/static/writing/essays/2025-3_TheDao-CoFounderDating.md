@@ -58,7 +58,7 @@ While a healthy partnership is the ideal, I believe it's better to be happy alon
 
 At the end of the day, picking a co-founder is picking a co-worker, and anything else is a pleasant surprise. And as with dating, the paradox follows that the best relationships start alone: the relationship with oneself. And like most work situations, it's important to appreciate a good one while it lasts (optimally until retirement, and realistically until entropy does its thing).
 
-For now, I'm embracing being a solo founder until the right partnership comes up – one that makes sense for everyone. And to my mom: don't worry, I'm still looking a fulfilling romantic relationship, and it'll happen ... eventually 😃 (or never ☠️, who knows).
+For now, I'm embracing being a solo founder until the right partnership comes up – one that makes sense for everyone. And to my mom: don't worry, I'm still looking for a fulfilling romantic relationship, and it'll happen ... eventually 😃 (or never ☠️, who knows).
 
 ---
 
