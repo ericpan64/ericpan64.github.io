@@ -6,23 +6,23 @@
 
 Dating is challenging, especially in our post-internet, post-pandemic world where options abound but meaningful connections remain elusive. Despite my mom's assurances about my obvious handsomeness [[2]](#footnotes), my romantic history consists of dozens of first dates and only one brief relationship. For relationships to work, they must make sense for everyone involved which is why rejection is often the norm.
 
-Co-founder relationships follow similar dynamics, but with a critical difference: they're fundamentally professional. While personal chemistry matters, the priority must be accomplishing work sustainably - everything else is secondary. And like in the corporate world, it’s not personal, even if it kind of is.
+Co-founder relationships follow similar dynamics, but with a critical difference: they're fundamentally professional. While personal chemistry matters, the priority must be accomplishing work sustainably – everything else is secondary. And like in the corporate world, it’s not personal, even if it kind of is.
 
 ## The Duality of Daoism: Everything and Nothing
 
-Last year, I began reading the [Dao De Jing (Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching) before getting thoroughly confused twenty pages in. Also around that time, I met a girl on Hinge [[3]](#footnotes) and we went on an ice cream date in downtown Palo Alto. After discussing mutual interests in philosophy, my brain lit up at the opportunity to project my worldly knowledge. I enthusiastically shared my satirical rendering: "It is EVERYTHING, and it is NOTHING, THAT is the DAO." We laughed, and an hour later of chatting and walking around, she departed with a casual smile - "see you around".
+Last year, I began reading the [Dao De Jing (Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching) before getting thoroughly confused twenty pages in. Also around that time, I met a girl on Hinge [[3]](#footnotes) and we went on an ice cream date in downtown Palo Alto. After discussing mutual interests in philosophy, my brain lit up at the opportunity to project my worldly knowledge. I enthusiastically shared my satirical rendering: "It is EVERYTHING, and it is NOTHING, THAT is the DAO." We laughed, and an hour later of chatting and walking around, she departed with a casual smile – "see you around".
 
-The paradox of the Dao has continued to intrigue me: how can something be simultaneously everything and nothing? Yet that describes most first dates perfectly - we bring our expectations and authentic selves, enjoy moments of connection, and typically leave with nothing tangible. The experience itself, however, isn't nothing - these moments collectively compose our lives and offer valuable glimpses into others and ourselves.
+The paradox of the Dao has continued to intrigue me: how can something be simultaneously everything and nothing? Yet that describes most first dates perfectly – we bring our expectations and authentic selves, enjoy moments of connection, and typically leave with nothing tangible. The experience itself, however, isn't nothing – these moments collectively compose our lives and offer valuable glimpses into others and ourselves.
 
-Daoism has helped me appreciate life's nuances. As I approach 30, I'm shedding romanticized expectations while remaining open to genuinely special moments. They're rare and precious - things to appreciate as true gifts. Acknowledging true romance, while also not expecting it from anyone, honors its integrity as a genuine gift. 
+Daoism has helped me appreciate life's nuances. As I approach 30, I'm shedding romanticized expectations while remaining open to genuinely special moments. They're rare and precious – things to appreciate as true gifts. Acknowledging true romance, while also not expecting it from anyone, honors its integrity as a genuine gift. 
 
 ## Actions Communicate Values
 
 Dating is essentially a negotiation for mutual fit [[4]](#footnotes). The best matches feel effortless, but words alone aren't enough. When we speak, we project our values; when we act, we make them real.
 
-Everyone presents their best self, but what persists is our authentic self: never static but strengthened through consistent action. Words exist in the realm of abstract values, while actions manifest these values in reality, complete with inevitable tradeoffs. It's far easier for abstract ideas to align than for realities to harmonize.
+Everyone presents their best self, but what persists is our authentic self: never static and strengthened through consistent action. Words exist in the realm of abstract values, while actions manifest these values in reality, complete with inevitable tradeoffs. It's far easier for abstract ideas to align than for realities to harmonize.
 
-Startups are inherently risky. Without risk, there would be no reward - otherwise, everyone would enjoy the benefits of everything while giving up nothing. From a Daoist lens, when we want everything, we also want nothing. While I believe it’s possible to construct situations where tradeoffs are mitigated, just as true romance does exist, it’s a bit unprofessional to ignore the reality of, well, reality.
+Startups are inherently risky. Without risk, there would be no reward – otherwise, everyone would enjoy the benefits of everything while giving up nothing. From a Daoist lens, when we want everything, we also want nothing. While I believe it’s possible to construct situations where tradeoffs are mitigated, just as true romance does exist, it’s a bit unprofessional to ignore the reality of, well, reality.
 
 
 ## Framework 1: Aligning Priorities with "Five Factors"
@@ -34,7 +34,7 @@ As I reflect on my serial co-founder “dating”, I’ve identified five key fa
 - **Fame**: Recognition and entrepreneurial "aura"
 - **Lifestyle**: Living in ways that are otherwise less available
 
-Through various meetings with potential co-founders, it’s often hard to match vibes, energy, timing, and priorities - reasonably so, life is complicated! Yet when I found alignment, optimism abounded - I was intoxicated by the possibility of building an idyllic future as a team. 
+Through various meetings with potential co-founders, it’s often hard to match vibes, energy, timing, and priorities – reasonably so, life is complicated! Yet when I found alignment, optimism abounded – I was intoxicated by the possibility of building an idyllic future as a team. 
 
 When talking, people project their ideals and values, and it’s truly special to share genuine values with someone else. Understanding mutual factors can be powerful in minimizing conflict and aligning visions, also with the shared understanding that things evolve naturally. As Linus Torvalds once put it: [“Talk is cheap. Show me the code.”](https://lkml.org/lkml/2000/8/25/132)
 
@@ -54,11 +54,11 @@ A good co-founder should be willing to cover everything while demonstrating exce
 
 ## Conclusion
 
-While a healthy partnership is the ideal, I believe it's better to be happy alone than in a misaligned relationship. The best foundation for any partnership is self-sufficiency - it positions one to give more than take, though it’s human to have needs and seek genuine connections which embody both everything and nothing [[5]](#footnotes).
+While a healthy partnership is the ideal, I believe it's better to be happy alone than in a misaligned relationship. The best foundation for any partnership is self-sufficiency – it positions one to give more than take, though it’s human to have needs and seek genuine connections which embody both everything and nothing [[5]](#footnotes).
 
-At the end of the day, picking a co-founder is picking a co-worker, and anything else is a pleasant surprise. And as with dating, the paradox follows: the best relationships start alone, the relationship with oneself. And like most work situations, it's important to appreciate a good one while it lasts (ideally until retirement, and realistically until entropy does its thing).
+At the end of the day, picking a co-founder is picking a co-worker, and anything else is a pleasant surprise. And as with dating, the paradox follows that the best relationships start alone: the relationship with oneself. And like most work situations, it's important to appreciate a good one while it lasts (optimally until retirement, and realistically until entropy does its thing).
 
-For now, I'm embracing being a solo founder until the right partnership comes up - one that makes sense for everyone. And to my mom: don't worry, I'm still looking a fulfilling romantic relationship, and it'll happen ... eventually 😃 (or never ☠️, who knows).
+For now, I'm embracing being a solo founder until the right partnership comes up – one that makes sense for everyone. And to my mom: don't worry, I'm still looking a fulfilling romantic relationship, and it'll happen ... eventually 😃 (or never ☠️, who knows).
 
 ---
 
