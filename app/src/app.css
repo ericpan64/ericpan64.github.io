@@ -20,11 +20,28 @@
 }
 
 /* Cursor fun! */
-/* TODO: consider other states to add */
 :root {
-    --cursor-default: url('/cursors/pikachu/main.png'), auto;
-    --cursor-pointer: url('/cursors/pikachu/normal.png'), pointer;
+    --cursor-default: url('/cursors/main.png'), auto;
+    --cursor-pointer: url('/cursors/emotes/normal.png'), pointer;
+    --cursor-disgust: url('/cursors/emotes/disgust.png'), pointer;
+    --cursor-heart-1: url('/cursors/emotes/heart-1.png'), pointer;
+    --cursor-heart-2: url('/cursors/emotes/heart-2.png'), pointer;
+    --cursor-heart-3: url('/cursors/emotes/heart-3.png'), pointer;
+    --cursor-question: url('/cursors/emotes/question.png'), pointer;
+    --cursor-sleep: url('/cursors/emotes/sleep.png'), pointer;
+    --cursor-surprise: url('/cursors/emotes/surprise.png'), pointer;
+    --cursor-welp: url('/cursors/emotes/welp.png'), pointer;
 }
+
+/* Pikachu emotion classes */
+.pikachu-disgust:hover { cursor: var(--cursor-disgust); }
+.pikachu-heart-1:hover { cursor: var(--cursor-heart-1); }
+.pikachu-heart-2:hover { cursor: var(--cursor-heart-2); }
+.pikachu-heart-3:hover { cursor: var(--cursor-heart-3); }
+.pikachu-question:hover { cursor: var(--cursor-question); }
+.pikachu-sleep:hover { cursor: var(--cursor-sleep); }
+.pikachu-surprise:hover { cursor: var(--cursor-surprise); }
+.pikachu-welp:hover { cursor: var(--cursor-welp); }
 
 /* Ignore cursor for home image (`no-cursor-hover` is an arbitrary class name I picked and assigned) */
 .no-cursor-hover:hover {

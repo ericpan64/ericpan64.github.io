@@ -63,10 +63,10 @@
 <main>
     <h1>Welcome! — epan.land</h1>
     <nav>
-        <ul class="horizontal-list">
+        <ul class="horizontal-list pikachu-question">
             {#each imageDirectories as category}
                 <li>
-                    <a
+                    <a class="pikachu-surprise"
                         href=""
                         on:click={() => {
                             folderSelection = category;
