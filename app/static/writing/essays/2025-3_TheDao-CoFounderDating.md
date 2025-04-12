@@ -36,7 +36,7 @@ As I reflect on my serial co-founder “dating”, I’ve identified five key fa
 
 Through various meetings with potential co-founders, it’s often hard to match vibes, energy, timing, and priorities – reasonably so, life is complicated! Yet when I found alignment, optimism abounded – I was intoxicated by the possibility of building an idyllic future as a team. 
 
-When talking, people project their ideals and values, and it’s truly special to share genuine values with someone else. Understanding mutual factors can be powerful in minimizing conflict and aligning visions, also with the shared understanding that things evolve naturally. However, as Linus Torvalds once put it: [“Talk is cheap. Show me the code.”](https://lkml.org/lkml/2000/8/25/132)
+When talking, people project their ideals and values, and it’s truly special to share genuine values with someone else. Understanding mutual factors can be powerful in minimizing conflict and aligning visions, also with the shared understanding that things evolve naturally. However, as Linus Torvalds once put it: [“Talk is cheap. Show me the code.”](https://lkml.org/lkml/2000/8/25/132|{heart-2})
 
 When it’s time for action, sh*t gets real. Reality sets in and introduces tradeoffs and compromises. Additionally, the “hidden” state of individual values comes out as well: actions communicate our true values, conscious or not. In the realm of the abstract, it’s possible to keep and actualize all of the factors at once; in reality, it might only be possible to properly prioritize one of the five. When things get hard: prioritize one, watch the rest, and get back to fire fighting.
  

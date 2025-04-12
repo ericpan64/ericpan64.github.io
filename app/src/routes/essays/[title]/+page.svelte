@@ -19,10 +19,22 @@
     };
     // Add a `target="_blank"` for web links (so they open in new tab)
     renderer.link = (e) => {
-        if (e.href.startsWith("https://")) {
-            return `<a href="${e.href}" target="_blank"}>${e.text}</a>`;
+        // Check for Pikachu emote syntax: [text](url|{emote-name})
+        const parts = e.href.split('|{');
+        let actualHref = e.href;
+        let emoteClass = '';
+        
+        if (parts.length === 2) {
+            actualHref = parts[0];
+            const emoteName = parts[1].replace('}', '');
+            emoteClass = `pikachu-${emoteName}`;
+            console.log('Found emote:', emoteClass); // Debug log
         }
-        return `<a href="${e.href}">${e.text}</a>`;
+
+        if (actualHref.startsWith("https://")) {
+            return `<a href="${actualHref}" class="${emoteClass}" target="_blank">${e.text}</a>`;
+        }
+        return `<a href="${actualHref}" class="${emoteClass}">${e.text}</a>`;
     };
 
     async function fetchContent(title) {
