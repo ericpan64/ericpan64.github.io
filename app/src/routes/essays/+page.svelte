@@ -1,27 +1,25 @@
-<script>
-    // import { onMount } from "svelte";
-    // import { marked } from "marked";
-
-    // // import { entries } from "./+page.server";
-
-    // // NOTE: The markdown parsing gets handled in `+page.server.ts`
-    // // ... doing this so static build works
-    // const content = entries();
-    // const parsed_content = marked(content);
-
-    // onMount(async () => {
-    //     const response = await fetch("/writing/essays/_.md");
-    //     const markdown = await response.text();
-    //     content = marked(markdown);
-    // });
+<script lang="ts">
+    export let data;
+    
+    // Map of special titles to their display names
+    const titleOverrides: Record<string, string> = {
+        '2025-3_TheDao-CoFounderDating': 'The Dao of Co-Founder "Dating"',
+        '2024-10_KH-SOP': 'Stanford Knight Hennessy - Connect The Dots (rejected but learned a lot)',
+        '2024-8_MS-Design-SOP': 'Stanford MS Design - Statement of Purpose (rejected but glad I tried)',
+        '2024-3_DataMappingsAsPoetry': 'Data Mapping is Poetry (not plumbing)',
+        '2022-8_MS-BMI-SOP': 'Stanford MS BMI - Statement of Purpose (accepted!)'
+    };
+    
+    // Helper to get display title
+    function getDisplayTitle(filename: string, defaultTitle: string): string {
+        return titleOverrides[filename] || defaultTitle;
+    }
+    
+    // Check if an essay is new (March 2025)
+    function isNew(filename: string): boolean {
+        return filename === '2025-3_TheDao-CoFounderDating';
+    }
 </script>
-
-<!-- <div>{@html parsed_content}</div> -->
-<!-- Ok. This is manual for now. TODO to switch this to "automagically" build 
- And for context -- the issue is converting from markdown links -> <a> tags dynamically in the code
- means that the static renderer can't pre-render it / discover it. 
- The data is still just from the markdown file though and we have that at compile time, so can do something there
--->
 
 <main>
     <h1>Essays on various things</h1>
@@ -31,37 +29,21 @@
     </p>
 
     <ul>
-        <li>
-            [March 2025] <img
-                src="/images/ebay-new-2000s.png"
-                alt="The eBay 'new' icon from the 2000's, a classic!"
-                width="24rem"
-                height="auto"
-            /><a href="/essays/2025-3_TheDao-CoFounderDating">
-                The Dao of Co-Founder "Dating"
-            </a>
-        </li>
-        <li>
-            [October 2024] <a href="/essays/2024-10_KH-SOP"
-                >Stanford Knight Hennessy - Connect The Dots (rejected but
-                learned a lot)
-            </a>
-        </li>
-        <li>
-            [August 2024] <a href="/essays/2024-8_MS-Design-SOP"
-                >Stanford MS Design - Statement of Purpose (rejected but glad I
-                tried)</a
-            >
-        </li>
-        <li>
-            [March 2024] <a href="/essays/2024-3_DataMappingsAsPoetry"
-                >Data Mapping is Poetry (not plumbing)</a
-            >
-        </li>
-        <li>
-            [August 2022] <a href="/essays/2022-8_MS-BMI-SOP"
-                >Stanford MS BMI - Statement of Purpose (accepted!)</a
-            >
-        </li>
+        {#each data.essays as essay}
+            <li>
+                [{essay.displayDate}]
+                {#if isNew(essay.filename)}
+                    <img
+                        src="/images/ebay-new-2000s.png"
+                        alt="The eBay 'new' icon from the 2000's, a classic!"
+                        width="24rem"
+                        height="auto"
+                    />
+                {/if}
+                <a href={essay.href}>
+                    {getDisplayTitle(essay.filename, essay.title)}
+                </a>
+            </li>
+        {/each}
     </ul>
 </main>
