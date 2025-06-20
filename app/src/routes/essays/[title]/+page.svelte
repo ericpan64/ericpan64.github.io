@@ -1,13 +1,14 @@
 <script>
-    import { page } from "$app/stores";
     import MarkdownPage from "$lib/components/MarkdownPage.svelte";
     
-    $: markdownPath = `/writing/essays/${$page.params.title}.md`;
+    export let data;
+    
+    $: markdownPath = `/writing/essays/${data.title}.md`;
 </script>
 
 <main>
     <br />
-    <nav><a href="/essays">essays</a> ~ {$page.params.title}</nav>
+    <nav><a href="/essays">essays</a> ~ {data.title}</nav>
     
     <article>
         <MarkdownPage 
