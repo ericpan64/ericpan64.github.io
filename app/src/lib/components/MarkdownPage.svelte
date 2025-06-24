@@ -37,11 +37,21 @@
         }
       }
       
+      // Parse the link text for inline formatting (italics, bold, etc)
+      let linkText = e.text;
+      try {
+        // Use marked.parseInline to handle emphasis and other inline elements
+        linkText = marked.parseInline(e.text);
+      } catch (err) {
+        // Fall back to original text if parsing fails
+        linkText = e.text;
+      }
+      
       // Add target="_blank" for external links
       if (actualHref.startsWith('https://')) {
-        return `<a href="${actualHref}" class="${emoteClass}" target="_blank">${e.text}</a>`;
+        return `<a href="${actualHref}" class="${emoteClass}" target="_blank">${linkText}</a>`;
       }
-      return `<a href="${actualHref}" class="${emoteClass}">${e.text}</a>`;
+      return `<a href="${actualHref}" class="${emoteClass}">${linkText}</a>`;
     };
     
     return renderer;
