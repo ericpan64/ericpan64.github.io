@@ -1,3 +1,15 @@
 _tmp/
 .DS_Store
 node_modules
+
+# AI stuff
+.specstory/
+.cursor*
+CLAUDE.md
+.claude*
+.aidigestignore
+.specstory/.what-is-this.md
+codebase.md
+.paic/
+diff.txt
+temp.txt

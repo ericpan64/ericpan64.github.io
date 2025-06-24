@@ -19,6 +19,43 @@
     src: url('/fonts/PokemonGb-JacksterProductions.ttf') format('truetype');
 }
 
+/* Heading styles to ensure proper hierarchy */
+h1 {
+    font-size: 1.75rem;
+    margin: 1.5rem 0 1rem 0;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1.25rem 0 0.875rem 0;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.75rem 0;
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: 1rem;
+    margin: 0.875rem 0 0.625rem 0;
+    line-height: 1.4;
+}
+
+h5 {
+    font-size: 0.8rem;
+    margin: 0.75rem 0 0.5rem 0;
+    line-height: 1.4;
+}
+
+h6 {
+    font-size: 0.6rem;
+    margin: 0.625rem 0 0.5rem 0;
+    line-height: 1.4;
+}
+
 /* Cursor fun! */
 :root {
     --cursor-default: url('/cursors/main.png'), auto;

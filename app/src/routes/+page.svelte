@@ -1,16 +1,15 @@
 <script lang="ts">
-    import { onMount } from "svelte";
     import { imageData } from "$lib/imageOptions";
 
-    let imageSrc = "";
-    let imageAltText = "";
-    let folderSelection = "cats";
-    let isLoading = true;
+    let imageSrc = $state("");
+    let imageAltText = $state("");
+    let folderSelection = $state<keyof typeof imageData>("cats");
+    let isLoading = $state(true);
 
     let lastPicked = "";
 
     const pickRandom = (
-        optionDict: Record<string, Record<string, number>>,
+        optionDict: Record<string, { weight: number; alt: string }>,
     ): string => {
         const options = Object.keys(optionDict).filter(
             (opt) => opt !== lastPicked,
@@ -18,14 +17,14 @@
         if (options.length === 0) return lastPicked;
 
         const sum = options.reduce(
-            (acc, opt) => acc + optionDict[opt].weight,
+            (acc, opt) => acc + (optionDict[opt]?.weight || 0),
             0,
         );
         const rand = Math.random() * sum;
 
         let cumulative = 0;
         for (let opt of options) {
-            cumulative += optionDict[opt].weight;
+            cumulative += optionDict[opt]?.weight || 0;
             if (rand <= cumulative) {
                 lastPicked = opt;
                 return opt;
@@ -39,25 +38,15 @@
         const options = imageData[folderSelection];
         const pickedImg = pickRandom(options);
         imageSrc = `/images/${folderSelection}/${pickedImg}`;
-        imageAltText = imageData[folderSelection][pickedImg].alt;
+        imageAltText = (imageData[folderSelection] as any)[pickedImg]?.alt || '';
         isLoading = false;
     };
 
-    onMount(setImageVars);
+    $effect(() => {
+        setImageVars();
+    });
 
     const imageDirectories = ["cats", "dogs", "moments"];
-
-    // // Cursor stuff!
-    // // TODO: Add way to disable the cursor
-    // import { cursorEnabled } from "$lib/stores";
-
-    // onMount(() => {
-    //     cursorEnabled.subscribe((enabled) => {
-    //         document.documentElement.dataset.cursor = enabled
-    //             ? "enabled"
-    //             : "disabled";
-    //     });
-    // });
 </script>
 
 <main>
@@ -66,12 +55,13 @@
         <ul class="horizontal-list pikachu-question">
             {#each imageDirectories as category}
                 <li>
-                    <a class="pikachu-surprise"
-                        href=""
-                        on:click={() => {
-                            folderSelection = category;
+                    <button class="pokemon-button"
+                        onclick={(e) => {
+                            e.preventDefault();
+                            folderSelection = category as keyof typeof imageData;
                             setImageVars();
-                        }}>{category}</a
+                        }}>
+                        <span class="pikachu-surprise">{category}</span></button
                     >
                 </li>
             {/each}
@@ -101,4 +91,37 @@
         display: inline-block;
         margin-right: 10px;
     }
+
+    .pokemon-button {
+        /* Basic shape and border */
+        border: 2px dashed #222;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 6px 4px;
+        font-family: 'Pokemon GB'; /* Retro pixel font */
+        font-size: 8px;
+        color: #222;
+        cursor: pointer;
+        /* No rounded corners */
+        border-radius: 0;
+        /* Shadow/bevel effect */
+        box-shadow: 4px 4px 0 #666;
+        /* Transition for interactive feedback */
+        transition: all 0.1s;
+        /* Outline for accessibility, but keep it subtle */
+        outline: none;
+    }
+
+    .pokemon-button:hover {
+        border: 2px solid #222;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 2px 2px 0 #666;
+        transform: translate(2px, 2px);
+    }
+
+    .pokemon-button:active {
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 1px 1px 0 #666;
+        transform: translate(3px, 3px);
+    }
+
 </style>
