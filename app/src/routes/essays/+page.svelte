@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let data;
+    let { data } = $props();
     
     // Map of special titles to their display names
     const titleOverrides: Record<string, string> = {

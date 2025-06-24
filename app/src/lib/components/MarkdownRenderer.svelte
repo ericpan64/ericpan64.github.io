@@ -1,14 +1,11 @@
 <script lang="ts">
-    import { onMount } from "svelte";
     import { marked } from "marked";
     
-    export let path = "";
-    export let enableAnchors = false;
-    export let enableEmotes = false;
+    let { path = "", enableAnchors = false, enableEmotes = false } = $props();
     
-    let content = "";
-    let loading = true;
-    let error: string | null = null;
+    let content = $state("");
+    let loading = $state(true);
+    let error = $state<string | null>(null);
     
     // Configure marked renderer
     const renderer = new marked.Renderer();
@@ -75,15 +72,12 @@
         }
     }
     
-    // Fetch content on mount and when path changes
-    onMount(() => {
-        fetchContent();
+    // Effect to handle initial load and path changes
+    $effect(() => {
+        if (path) {
+            fetchContent();
+        }
     });
-    
-    // Re-fetch content when path changes
-    $: if (path) {
-        fetchContent();
-    }
 </script>
 
 {#if loading}

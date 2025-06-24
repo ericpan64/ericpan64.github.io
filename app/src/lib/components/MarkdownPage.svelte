@@ -1,22 +1,17 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
   import { marked } from 'marked';
   import { collectHeadings, headingToId, type Heading } from '$lib/utils/markdown';
   
   // Props
-  export let path = '';
-  export let enableAnchors = false;
-  export let enableEmotes = false;
-  export let showToc = false;
+  let { path = '', enableAnchors = false, enableEmotes = false, showToc = false } = $props();
   
-  // State (will become $state in Svelte 5)
-  let content = '';
-  let loading = true;
-  let error: string | null = null;
+  // State
+  let content = $state('');
+  let loading = $state(true);
+  let error = $state<string | null>(null);
   
-  // Derived state (will become $derived in Svelte 5)
-  let headings: Heading[] = [];
-  $: headings = showToc ? collectHeadings(content) : [];
+  // Derived state
+  let headings = $derived(showToc ? collectHeadings(content) : []);
   
   // Configure marked renderer
   const createRenderer = () => {
@@ -83,15 +78,12 @@
     }
   }
   
-  // Lifecycle
-  onMount(() => {
-    fetchAndRenderContent();
+  // Effect to handle initial load and path changes
+  $effect(() => {
+    if (path) {
+      fetchAndRenderContent();
+    }
   });
-  
-  // Reactive statement to handle path changes
-  $: if (path) {
-    fetchAndRenderContent();
-  }
 </script>
 
 <div class="markdown-page">

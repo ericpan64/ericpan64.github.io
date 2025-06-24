@@ -1,9 +1,9 @@
 <script>
     import MarkdownPage from "$lib/components/MarkdownPage.svelte";
     
-    export let data;
+    let { data } = $props();
     
-    $: markdownPath = `/writing/essays/${data.title}.md`;
+    let markdownPath = $derived(`/writing/essays/${data.title}.md`);
 </script>
 
 <main>
