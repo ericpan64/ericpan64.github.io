@@ -15,7 +15,6 @@
             path={markdownPath} 
             enableAnchors={true}
             enableEmotes={true}
-            showToc={true}
         />
     </article>
 </main>
