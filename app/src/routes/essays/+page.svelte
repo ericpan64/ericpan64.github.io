@@ -6,7 +6,7 @@
         '2025-3_TheDao-CoFounderDating': 'The Dao of Co-Founder "Dating"',
         '2024-10_KH-SOP': 'Stanford Knight Hennessy - Connect The Dots (rejected but learned a lot)',
         '2024-8_MS-Design-SOP': 'Stanford MS Design - Statement of Purpose (rejected but glad I tried)',
-        '2024-3_DataMappingsAsPoetry': 'Data Mapping is Poetry (not plumbing)',
+        '2024-3_DataMappingsAsPoetry': 'Data Mapping is Poetry, not Plumbing',
         '2022-8_MS-BMI-SOP': 'Stanford MS BMI - Statement of Purpose (accepted!)'
     };
     

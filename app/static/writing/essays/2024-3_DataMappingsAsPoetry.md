@@ -1,4 +1,4 @@
-# Data Mapping is Poetry (not Plumbing)
+# Data Mapping is Poetry, not Plumbing
 
 Eric S Pan
 
