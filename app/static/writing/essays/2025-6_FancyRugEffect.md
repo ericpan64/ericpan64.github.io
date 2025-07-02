@@ -1,4 +1,4 @@
-# The Fancy Rug Dilemma
+# The Fancy Rug Effect
 
 > This essay goes over what I'll call the "Fancy Rug Effect" (as means improve, abstract concepts gain value over practical ones) and its corresponding dilemma (as abstract reasoning improves, abstract problems get favored over practical ones). This is an old idea in psychology relating to [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs), though hopefully this modern twist makes it more interesting and maybe less... fancy.
 
@@ -37,13 +37,13 @@ Reality is difficult by default. Many people are either too grounded in the real
 - Aspiring healthtech entrepreneurs that have never worked in healthcare (myself included): fighting in a space where ideals need to survive broken and much less forgiving realities 
 
 
-- 
+- ...
 
 ## Bridging the Ideal and the Real
 - There's a false dichotomy between abstract thinking and practicality: the challenge isn't choosing between these, rather it's bridging these worlds and prioritizing the right ones
 - Whether it's in fancy rug territory or not, the best ideas meet people wherever they are
   - By default it's reality, though maybe it doesn't have to be (yet it'll take a lot of reason to convince me otherwise). The truth will be somewhere in the middle, and most likely various combinations as human-computer interaction advances
-- It takes courage to scale the ivory tower, and it takes even more courage to leave. Yet growth happens 
+- It takes courage to scale the ivory tower, and it takes even more courage to leave. Yet growth happens admist uncertainty. And facing reality is facing the truth: someone always has it better, and someone always has it worse
 - 
 
 
