@@ -15,9 +15,26 @@
         return titleOverrides[filename] || defaultTitle;
     }
     
-    // Check if an essay is new (March 2025)
+    // Check if an essay is new (within last 3 months)
     function isNew(filename: string): boolean {
-        return filename === '2025-3_TheDao-CoFounderDating';
+        // Extract date from filename (e.g., "2025-3_TheDao-CoFounderDating" -> "2025-3")
+        const datePart = filename.split('_')[0];
+        if (!datePart || !datePart.includes('-')) return false;
+        
+        const [year, month] = datePart.split('-').map(Number);
+        if (!year || !month || month < 1 || month > 12) return false;
+        
+        // Create date object for the essay
+        const essayDate = new Date(year, month - 1, 1); // month is 0-indexed in Date constructor
+        
+        // Get current date
+        const now = new Date();
+        
+        // Calculate 3 months ago
+        const threeMonthsAgo = new Date(now.getFullYear(), now.getMonth() - 3, now.getDate());
+        
+        // Essay is new if it's after 3 months ago
+        return essayDate >= threeMonthsAgo;
     }
 </script>
 
