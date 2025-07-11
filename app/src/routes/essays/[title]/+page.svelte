@@ -19,3 +19,8 @@
     </article>
 </main>
 
+<style>
+    main {
+        max-width: 42rem;
+    }
+</style>
