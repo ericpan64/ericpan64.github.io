@@ -1,16 +1,19 @@
 # The Fancy Rug Effect
 
-> This essay goes over what I'll dub the "Fancy Rug Effect" (as means improve, abstract concepts gain value over practical ones) and its corresponding dilemma (developing skills in abstract reasoning increases the temptation to ignore more practical problems). This is an old idea in psychology relating to [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs), though hopefully this interpretation makes it more interesting and maybe less... fancy.
+> This essay goes over what I'll dub the "Fancy Rug Effect" (as means improve, abstract concepts gain value over practical ones) and its corresponding dilemma (developing skills in abstract reasoning increases the temptation to ignore more practical problems). This is not necessarily a new idea [[1]](#footnotes), though hopefully this interpretation makes it more interesting, personal, and maybe less... fancy.
+
+Suggested reading music:
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/705750517&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 ## Rug shopping in Palo Alto
 
-In Fall 2023, I moved out of Stanford's graduate housing [_E_] into Palo Alto splitting rent with three housemates. While walking in downtown, I came across Artsy Rugs -- a luxurous artisan rug store occupying an impressive corner of University Ave. Prior to starting my second MS at Stanford, I lived in Boston working as a Senior Software Engineer splitting rent with two other apartmentmates. When I moved into my Boston apartment, a good friend from undergrad was also moving out and gifted me a fluffy rug that still proudly decorates the living room. While I was once again a broke student, at least I had saved up a modest sum while working, and figured: why not? Let's check out Artsy Rugs.
+In Fall 2023, I moved out of Stanford's graduate housing [[2]](#footnotes) into Palo Alto splitting rent with three housemates. While walking in downtown, I came across Artsy Rugs -- a luxurous artisan rug store occupying an impressive corner of University Ave. Prior to starting my second MS at Stanford, I lived in Boston working as a Senior Software Engineer splitting rent with two other apartmentmates. When I moved into my Boston apartment, a good friend from undergrad was also moving out and gifted me a fluffy rug that still proudly decorates the living room. While I was once again a broke student, at least I had saved up a modest sum while working, and figured: why not? Let's check out Artsy Rugs.
 
 I went into the store and gazed at the stacks of luxurious rugs -- multiple stacks and over hundreds to choose from, each custom made with its own styles. I admired the different styles and craftsmanship, and mind you a rug lasts for a while so I wanted to make sure the style matched the rustic, down-to-earth vibe I was going for. After maybe 10 minutes, I found one that I liked, though the price tag shocked me: I don't remember how much exactly, though it my mind it was in the unit of "months worth of rent", beyond my scope of comprehension. I sheepishly put the rug back and quietly exited the store and decided my current rental would go rug-less.
 
 A couple of months later, to my surprise I discovered _other_ fancy rug store on University Ave -- also both luxurious and suspiciously sparse with foot traffic. I brought my discovery to a friend who, more cultured than I, brought up that rugs can carry significant cultural value and also acts as an item to be passed down generations. While I can appreciate the cultural and artistic value of a rug, as well as the idea of serving as a generational heriloom, the idea of trading months of living expenses for a rug seemed insulting -- maybe I'm just not rich enough to get it, or maybe it's just in Palo Alto.
 
-This question bothered me for a while: what kind of place sustains not one, but TWO fancy rug stores [_A_]? And who buys this kind of stuff? Upon deeper reflection and observation of my time in Palo Alto and Stanford, I realized that a fancy rug is more than just a rug.
+This question bothered me for a while: what kind of place sustains not one, but TWO fancy rug stores [[3]](#footnotes)? And who buys this kind of stuff? Upon deeper reflection and observation of my time in Palo Alto and Stanford, I realized that a fancy rug is more than just a rug.
 
 ## The Fancy Rug Effect
 
@@ -53,12 +56,15 @@ Grad school, was clearly valuable for me, though fundamentally: a lot of "this i
 
 ## Footnotes
 
-[_A_] At the time I came up with this idea, there was indeed two fancy rug stores in downtown: Artsy Rugs and _ Rugs. Unfortunately _ Rugs closed their storefront, but don't fret: they have merely relocated to Redwood City where the rent is probably a bit more reasonable.
+[1] A couple of related ideas in psychology: [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs), [Veblen Goods](https://en.wikipedia.org/wiki/Veblen_good), [Luxury Beliefs](https://en.wikipedia.org/wiki/Luxury_belief) (insightful article [here](https://www.robkhenderson.com/p/status-symbols-and-the-struggle-for)), etc.
 
-[_B_] This is a variant of the "luxury belief" discussion from years past, except focused on the inertia of change rather than the magnitude and direction
+[2] Shoutout Rains 🤙
+
+[3] At the time I came up with this idea, there was indeed two fancy rug stores in downtown: Artsy Rugs and _ Rugs. Unfortunately _ Rugs closed their storefront, but don't fret: they have merely relocated to Redwood City where the rent is probably a bit more reasonable.
+
+[4] This is a variant of the "luxury belief" concept from years past, except focused on the inertia of switching states rather than the intent/signaling/consequences.
 
 [_C_] I know you didn't ask, but my In-N-Out order is: cheeseburger animal style + both kinds of onions + extra lettuce, fries well-done, extra spread, and a water cup.
 
 [_D_] E.g. despite being clearly weaker than mammoths, humans found a way to survive based on collaboration, tools, and advanced reasoning. However, reasoning too deep naturally makes things more complicated, see 100 men vs 1 gorilla debate. Also this is why AI can genuinely be an existential threat, though imo far, far more good will come first, and a practical threat over AGI leading to human exinction is ~100 years out...
 
-[_E_] Shoutout Rains 🤙
