@@ -23,4 +23,5 @@
     main {
         max-width: 42rem;
     }
+
 </style>
