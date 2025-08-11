@@ -1,4 +1,4 @@
-# Data Mapping is Poetry (not Plumbing)
+# Data Mapping is Poetry, not Plumbing
 
 Eric S Pan
 
@@ -68,7 +68,7 @@ Thank you for making it this far! To be honest, I care most about the semantics 
 
 ### Post-Postscript
 
-Check out [pydian](https://github.com/ericpan64/pydian): what I hope might be the "ReactJS" for data mappings in Python!
+Check out [chidian](https://github.com/ericpan64/chidian): what I hope might be the "ReactJS" for data mappings in Python!
 
 ---
 

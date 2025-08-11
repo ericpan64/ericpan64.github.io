@@ -137,4 +137,13 @@
       flex-direction: column;
     }
   }
+
+  /* Blockquote styling for rendered Markdown */
+  .markdown-content :global(blockquote) {
+    border-left: 4px solid #cbd5e1; /* vertical line */
+    padding-left: 1rem;             /* spacing between line and text */
+    margin: 1.25rem 0;              /* top & bottom margin */
+    background: #f8fafc;            /* subtle background highlight */
+    color: #475569;                 /* slightly muted text color */
+  }
 </style>
