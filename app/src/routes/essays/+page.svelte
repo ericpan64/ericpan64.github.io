@@ -3,7 +3,7 @@
     
     // Map of special titles to their display names
     const titleOverrides: Record<string, string> = {
-        '2025-7_FancyRugEffect': 'The Fancy Rug Effect',
+        '2025-8_FancyRugDilemma': 'The Fancy Rug Dilemma',
         '2025-3_TheDao-CoFounderDating': 'The Dao of Co-Founder "Dating"',
         '2024-10_KH-SOP': 'Stanford Knight Hennessy - Connect The Dots (rejected but learned a lot)',
         '2024-8_MS-Design-SOP': 'Stanford MS Design - Statement of Purpose (rejected but glad I tried)',
