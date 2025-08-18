@@ -29,7 +29,7 @@ Thanks to my immigrant parents' (and grandparents') hard work, I grew up upper-m
 
 After two years at Stanford, I moved back home with my mom and grandma to bootstrap my startup. Cleaning out my room, I confronted my personal fancy rug collection:
 - Basketball shoes disproportionate to playing time
-- Books I'll never read again
+- Books I've never read (and/or will never read again)
 - Two MS degrees when one would've sufficed
 - A startup idea kept deliberately vague
 
