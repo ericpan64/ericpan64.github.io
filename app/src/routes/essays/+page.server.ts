@@ -10,7 +10,15 @@ export async function load() {
         // Filter for markdown files (exclude _.md)
         const essayFiles = files
             .filter((file: string) => file.endsWith('.md') && file !== '_.md')
-            .sort((a: string, b: string) => b.localeCompare(a)); // Sort in reverse chronological order
+            .sort((a: string, b: string) => {
+                const dateValue = (name: string) => {
+                    const head = name.split('_')[0] ?? '';
+                    const [y, m] = head.split('-').map(Number);
+                    // default to 0 if missing to keep non-conforming names at the end
+                    return new Date(y || 0, (m ? m - 1 : 0), 1).getTime();
+                };
+                return dateValue(b) - dateValue(a); // newest first
+            });
         
         // Extract metadata from filenames
         const essays = essayFiles.map((file: string) => {
