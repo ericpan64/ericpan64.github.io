@@ -1,6 +1,6 @@
 # The Fancy Rug Dilemma
 
-> This essay explores what I'll call the "Fancy Rug Effect" - how as means improve, abstract concepts gain value over practical ones. It also examines the corresponding dilemma: developing skills in the abstract increases the temptation to avoid practical problems. While not entirely new [[1]](#footnotes), hopefully this interpretation makes it more personal and, ironically, less fancy.
+> This essay explores what I'll call the "Fancy Rug Effect" - how as means improve, abstract concepts gain value over practical ones. It also examines the corresponding dilemma: developing skills in the abstract increases the temptation to avoid practical problems. While not entirely new [[1]](#footnotes), hopefully this interpretation makes it more personal and possibly less ...fancy.
 
 (Suggested reading music below)
 <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/705750517&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -71,7 +71,7 @@ Because even the fanciest rug is meant to connect us to the ground. And in speci
 
 ## Footnotes
 
-[1] Related ideas include [Maslow's hierarchy](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs), [Veblen Goods](https://en.wikipedia.org/wiki/Veblen_good), and [Luxury Beliefs](https://en.wikipedia.org/wiki/Luxury_belief). This take focuses on the inertia of switching between abstract and concrete rather than signaling or consequences. [↩](#the-fancy-rug-effect)
+[1] Related ideas include [Maslow's hierarchy](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs), [Veblen Goods](https://en.wikipedia.org/wiki/Veblen_good), and [Luxury Beliefs](https://en.wikipedia.org/wiki/Luxury_belief). This take focuses on the inertia of switching between abstract and concrete rather than signaling or consequences. [↩](#the-fancy-rug-dilemma)
 
 [2] Shoutout Rains 🤙 [↩](#rug-shopping-in-palo-alto)
 
@@ -85,4 +85,4 @@ Because even the fanciest rug is meant to connect us to the ground. And in speci
 
 [7] The Alternative Spring Break program is so great - I did it both at UCLA and Stanford and highly recommend it. If you're currently at Stanford, look out for the next trip [here](https://www.stanfordalternativebreaks.com/farmworkerhealth) (Eva and Esme are super cool too). [↩](#different-rugs-for-different-lives)
 
-[8] I've loved this term "meeting people where they are" which I got from taking Design for Healthy Behaviors (d.health) at Stanford. It's an awesome class and teaching staff (shoutout Dennis, Nancy, and YC) - definitely [check it out](https://explorecourses.stanford.edu/search?q=DESIGN+262&view=catalog&page=0&academicYear=20252026&filter-term-Winter=on&filter-units-2=on&filter-units-3=on&collapse=%2C3%2C&filter-coursestatus-Active=on)! [↩](#bridging-the-ideal-and-the-real)
+[8] I love this term "meeting people where they're at" which I got from taking Design for Healthy Behaviors (d.health) at Stanford. It's an awesome class and teaching staff (shoutout Dennis, Nancy, and YC) - definitely [check it out](https://explorecourses.stanford.edu/search?q=DESIGN+262&view=catalog&page=0&academicYear=20252026&filter-term-Winter=on&filter-units-2=on&filter-units-3=on&collapse=%2C3%2C&filter-coursestatus-Active=on)! [↩](#bridging-the-ideal-and-the-real)
