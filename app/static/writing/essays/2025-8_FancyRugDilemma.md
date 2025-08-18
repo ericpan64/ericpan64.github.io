@@ -21,9 +21,9 @@ The "Fancy Rug Effect": when immediate needs are met, abstract value proposition
 
 The abstract realm preserves ideals while avoiding reality's imperfections. As someone with two master's degrees, I understand the appeal. We need abstraction to transform reality - this capacity has made humans Earth's dominant species [[5]](#footnotes). Yet abstraction also offers escape.
 
-I occupy an uncommon middle. Some days I obsess over keeping API expenses under $10; other times I drop $200 on basketball shoes for my dust-collecting collection. I'll agonize over a $20 meal while nonchalantly spending thousands on tuition. Our unconscious standards make some "fancy rug" decisions simpler than others.
+I occupy an uncommon middle. Some days I obsess over keeping API expenses under $10; other times I drop hundreds on basketball shoes for my dust-collecting (but dope) collection. I'll agonize over a $20 meal while nonchalantly spending thousands on tuition. Our unconscious standards make some "fancy rug" decisions simpler than others.
 
-Thanks to my immigrant parents' hard work, I grew up upper-middle class, inheriting both their appreciation for making something from nothing and my own taste for fancy rugs. I pride myself on frugality [[6]](#footnotes) partly to honor their American dream pursuit. Yet what's the point of hoarding money if we suppress ourselves from experiences, communities, and values worth expressing? My journey chases different fancy rugs than my parents faced, with lower stakes and safety nets they never had.
+Thanks to my immigrant parents' (and grandparents') hard work, I grew up upper-middle class, inheriting both their appreciation for making something from nothing and my own taste for fancy rugs. Sometimes I pride myself on frugality [[6]](#footnotes) partly to honor their frugal and resourceful pursuit of the American dream. Yet what's the point of hoarding money if we suppress ourselves from experiences, communities, and values worth expressing? My journey chases different fancy rugs than my parents faced, with lower stakes and safety nets they never had.
 
 ## My Own Palace of Abstractions
 
@@ -43,11 +43,11 @@ This is the Fancy Rug Dilemma: stronger abstract reasoning makes it tempting to 
 
 ## Different Rugs for Different Lives
 
-During Stanford's Alternative Spring Break [[7]](#footnotes), we visited organizations supporting Bay Area migrant farmworkers. At one nonprofit, someone brought their motorcycle for a group photo, and we proudly raised our fists in a unified "¡Sí se puede!". While we helped prepare some materials for events and outreach, the real value was showing up and learning how to support farmworkers in our careers. Returning to campus, many of us wondered if "selling out" to "big tech" also meant turning a blind eye to the noble workers we'd just met. Maybe there's a way to have both, and if not, that definitely doesn't have to be true indefinitely.
+During Stanford's Alternative Spring Break [[7]](#footnotes), we visited organizations supporting Bay Area migrant farmworkers. At one nonprofit, someone brought their motorcycle for a group photo, and we proudly raised our fists in a unified "¡Sí se puede!". While we helped prepare some materials for events and outreach, the real value was showing up and learning how to support farmworkers in our careers. Returning to campus, many of us wondered if "selling out" to "big tech" also meant turning a blind eye to the noble people we'd just met. Maybe there's a way to have both, and if not, there should be.
 
 The contrast struck me: tech capitalists assigning millions to abstract ideas while farmworkers create concrete value under harsh conditions. Both groups have their fancy rugs. The motorcycle wasn't just transportation but freedom, pride, achievement. Different from a $10k rug, but serving the same human need for meaning.
 
-At Stanford, I saw brilliant students trapped in fancy rug lifestyles - treating school as extended vacation from society (myself included). Aspiring healthtech entrepreneurs who've never worked in healthcare imposing clean abstractions on messy realities. It's "failure to launch" mixed with "pivot hell" - why commit to specific problems when you can stay abstractly superior, perpetually "exploring opportunities"?
+At Stanford, I saw brilliant students trapped in fancy rug lifestyles - treating school as extended vacation from society (myself included). Aspiring healthtech entrepreneurs who've never worked in healthcare imposing clean abstractions on messy realities (also myself included). It's "failure to launch" mixed with "pivot hell" - why commit to specific problems when you can stay abstractly superior, perpetually "exploring opportunities"? It's part of the learning, and it's also part of the problem.
 
 ## Bridging the Ideal and the Real
 
@@ -57,13 +57,13 @@ It takes courage to climb the ivory tower and more to descend. Growth happens am
 
 But life is meant to be enjoyed too. A rug can transcend floor covering while remaining, fundamentally, something you walk on. The magic isn't choosing between practical and transcendent - it's holding both truths simultaneously.
 
-## What's Your Fancy Rug?
+## What's Your "Fancy Rug"?
 
 Real progress exists in the vulnerability to make abstract ideas concrete, the maturity to accept good with bad, and the empathy to understand others' fancy rug pursuits. I used to think that buying a fancy rug was straight up bonkers, though now I can understand that while it's still bonkers for me, it's really meant for someone else.
 
-My fancy rugs taught me that meaning-making is universal. We all need things transcending pure utility, connecting us to stories bigger than ourselves. The entrepreneur's vision, the farmworker's motorcycle, the collector's Persian silk - all attempts to bridge what is with what could be.
+My "fancy rugs" taught me that meaning-making is universal. We all need things transcending pure utility, connecting us to stories bigger than ourselves. The entrepreneur's vision, the farmworker's motorcycle, the collector's Persian silk - all attempts to bridge what is with what could be.
 
-What's your fancy rug? How does it serve you? And when might it be time to actually walk on it?
+What's your "fancy rug"? How does it serve you? And when might it be time to actually walk on it?
 
 Because even the fanciest rug is meant to connect us to the ground. And in special circumstances, they connect us to each other.
 
