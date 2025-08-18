@@ -1,11 +1,43 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { mdsvex } from 'mdsvex';
+import remarkGfm from 'remark-gfm';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeExternalLinks from 'rehype-external-links';
+import remarkEmoteLinks from './src/lib/markdown/remarkEmoteLinks.js';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	// Add .svx extension support
+	extensions: ['.svelte', '.svx'],
+	
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: vitePreprocess(),
+	preprocess: [
+		vitePreprocess(),
+		mdsvex({
+			extensions: ['.svx'],
+			remarkPlugins: [
+				remarkGfm,
+				remarkEmoteLinks
+			],
+			rehypePlugins: [
+				rehypeSlug,
+				[rehypeAutolinkHeadings, { 
+					behavior: 'append',
+					properties: { 
+						className: 'anchor',
+						ariaLabel: 'Link to this heading'
+					}
+				}],
+				[rehypeExternalLinks, { 
+					target: '_blank', 
+					rel: ['noopener', 'noreferrer'] 
+				}]
+			]
+		})
+	],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

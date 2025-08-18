@@ -1,21 +1,6 @@
 <script lang="ts">
     let { data } = $props();
     
-    // Map of special titles to their display names
-    const titleOverrides: Record<string, string> = {
-        '2025-8_FancyRugDilemma': 'The Fancy Rug Dilemma',
-        '2025-3_TheDao-CoFounderDating': 'The Dao of Co-Founder "Dating"',
-        '2024-10_KH-SOP': 'Stanford Knight Hennessy - Connect The Dots (rejected but learned a lot)',
-        '2024-8_MS-Design-SOP': 'Stanford MS Design - Statement of Purpose (rejected but glad I tried)',
-        '2024-3_DataMappingsAsPoetry': 'Data Mapping is Poetry, not Plumbing',
-        '2022-8_MS-BMI-SOP': 'Stanford MS BMI - Statement of Purpose (accepted!)'
-    };
-    
-    // Helper to get display title
-    function getDisplayTitle(filename: string, defaultTitle: string): string {
-        return titleOverrides[filename] || defaultTitle;
-    }
-    
     // Check if an essay is new (within last 3 months)
     function isNew(filename: string): boolean {
         // Extract date from filename (e.g., "2025-3_TheDao-CoFounderDating" -> "2025-3")
@@ -48,6 +33,7 @@
 
     <ul>
         {#each data.essays as essay}
+            {#if essay}
             <li>
                 [{essay.displayDate}]
                 {#if isNew(essay.filename)}
@@ -59,9 +45,10 @@
                     />
                 {/if}
                 <a href={essay.href}>
-                    {getDisplayTitle(essay.filename, essay.title)}
+                    {essay.title}
                 </a>
             </li>
+            {/if}
         {/each}
     </ul>
 </main>

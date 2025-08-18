@@ -1,49 +1,51 @@
-import { readdir } from 'node:fs/promises';
-import { join } from 'node:path';
+type EssayFrontmatter = {
+    title: string;
+    date?: string;        // YYYY-MM format
+    displayDate?: string; // "August 2025"
+    slug?: string;
+    published?: boolean;
+};
 
 export async function load() {
-    const essaysDirectory = join(process.cwd(), 'static', 'writing', 'essays');
-    
-    try {
-        const files = await readdir(essaysDirectory);
-        
-        // Filter for markdown files (exclude _.md)
-        const essayFiles = files
-            .filter((file: string) => file.endsWith('.md') && file !== '_.md')
-            .sort((a: string, b: string) => b.localeCompare(a)); // Sort in reverse chronological order
-        
-        // Extract metadata from filenames
-        const essays = essayFiles.map((file: string) => {
-            const filename = file.replace('.md', '');
-            const parts = filename.split('_');
+    // Load .svx essays using import.meta.glob - try different patterns
+    const svxModules = import.meta.glob('./**/*.svx', { eager: true }) as Record<
+        string,
+        { metadata?: EssayFrontmatter }
+    >;
+
+    const essays = Object.entries(svxModules)
+        .map(([path, mod]) => {
+            // Only process essays (paths should start with ./[slug]/+page.svx)
+            const slugMatch = path.match(/^\.\/([^/]+)\/\+page\.svx$/);
+            if (!slugMatch) return null;
             
-            // Parse date from filename (e.g., "2024-10" -> "October 2024")
-            let displayDate = '';
-            if (parts[0] && parts[0].includes('-')) {
-                const [year, month] = parts[0].split('-');
-                const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+            const slug = slugMatch[1];
+            const m = (mod?.metadata || {}) as EssayFrontmatter;
+            
+            if (!m.title) return null;
+
+            // Use provided displayDate or compute from date
+            let displayDate = m.displayDate;
+            if (!displayDate && m.date) {
+                const [year, month] = m.date.split('-');
+                const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
                                   'July', 'August', 'September', 'October', 'November', 'December'];
                 displayDate = `${monthNames[parseInt(month) - 1]} ${year}`;
             }
-            
-            // Extract title from filename (everything after date)
-            const title = parts.slice(1).join('_').replace(/-/g, ' ');
-            
+
             return {
-                filename,
-                displayDate,
-                title,
-                href: `/essays/${filename}`
+                filename: slug,
+                displayDate: displayDate || '',
+                title: m.title,
+                href: `/essays/${slug}`,
+                published: m.published !== false
             };
-        });
-        
-        return {
-            essays
-        };
-    } catch (error) {
-        console.error('Error reading essays directory:', error);
-        return {
-            essays: []
-        };
-    }
+        })
+        .filter(Boolean)
+        .filter((e) => (e as any).published)
+        .sort((a: any, b: any) => b.filename.localeCompare(a.filename));
+    
+    return {
+        essays
+    };
 }

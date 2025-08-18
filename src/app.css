@@ -19,6 +19,12 @@
     src: url('/fonts/PokemonGb-JacksterProductions.ttf') format('truetype');
 }
 
+/* Text content max width for readability (64 characters) */
+main {
+    max-width: 88ch;
+    padding: 0 1rem;
+}
+
 /* Heading styles to ensure proper hierarchy */
 h1 {
     font-size: 1.75rem;

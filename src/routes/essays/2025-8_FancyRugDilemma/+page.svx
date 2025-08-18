@@ -1,3 +1,15 @@
+---
+title: "The Fancy Rug Dilemma"
+date: "2025-08"
+displayDate: "August 2025"
+slug: "2025-8_FancyRugDilemma"
+published: true
+---
+
+<nav class="p-8">
+    <a href="/essays">essays</a> ~ {slug}
+</nav>
+
 # The Fancy Rug Effect
 
 > This essay explores what I'll dub the "Fancy Rug Effect" – how as means improve, abstract concepts gain value over practical ones. It also examines the corresponding dilemma: developing skills in abstract reasoning increases the temptation to ignore more practical problems. This is not necessarily a new idea [[1]](#footnotes), though hopefully this interpretation makes it more interesting, personal, and maybe less... fancy.

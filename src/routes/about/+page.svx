@@ -1,8 +1,12 @@
+---
+title: "About"
+---
+
 # A bit about me
 
 Hello! I'm <u>E</u>ric S <u>Pan</u> and this is my <u>land</u>ing page. I'm an engineer passionate about improving healthcare, teaching, and fostering wellness.
 
-<img src="/images/Me@FavThinkingSpot.jpeg" title="Me, sitting at my favorite thinking spot. Photo by mom! Stanford CA, circa Summer 2024" alt="Me, sitting at my favorite thinking spot. Photo by mom! Stanford CA, circa Summer 2024" height="420rem" width="300rem"></img>
+<img src="/images/Me@FavThinkingSpot.jpeg" title="Me, sitting at my favorite thinking spot. Photo by mom! Stanford CA, circa Summer 2024" alt="Eric at his favorite thinking spot" style="height: 420px; width: 300px;" />
 
 <u>What I'm focused on now (primary, secondary)</u>: go-to-market for startup ([Stoa Medical](https://stoamedical.com)), getting good at [n8n](https://n8n.io/)
 
@@ -10,7 +14,7 @@ Hello! I'm <u>E</u>ric S <u>Pan</u> and this is my <u>land</u>ing page. I'm an e
 
 <u>Things I'd love your thoughts on</u>: [chidian](https://github.com/ericpan64/chidian) (⭐️ 🙏), [the Pico Protocol](https://docs.google.com/presentation/d/1Nh9rKV58ZrMPNwecg8crO_W56ZOySID3/edit?usp=sharing&ouid=108978819231638632466&rtpof=true&sd=true)
 
-Reach me at: eric.pan (at) stoamedical.com
+Reach me at: eric.pan@stoamedical.com
 
 <u>Things I wrapped-up</u>: initial prototype for Stoa, talk on data mapping at FHIR DevDays 2025 (see [/teaching](/teaching#conferences)), graduated Stanford 🎉 MS Biomedical Informatics
 
