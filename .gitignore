@@ -13,3 +13,20 @@ codebase.md
 .paic/
 diff.txt
 temp.txt
+
+# BEGIN roobert
+# Roobert
+.roobert/
+.DS_Store
+# Common dev tools
+.cursor/
+.cursor*
+.kiro/
+.specstory/
+.paic/
+claude/
+.aider*
+diff.txt
+temp.txt
+digest.txt
+# END roobert
